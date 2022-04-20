@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contador</title>
-    <link rel="stylesheet" href="/assets/css/styles.css" type="">
-</head>
-<body>
-    <h1>Contador</h1>
-    <p>Clique nos botões para alterar o valor.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio: To-Do-List</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  </head>
+  <body>
+    <main class="container">
+      <h1>Desafio: To-Do-List</h1>
+      <p>Precisa organizar suas tarefas? Utilize esse To-Do-List :)</p>
 
-    <div id="counter">
-        <button name="subtrair" onclick="decrement()">-</button>
-        <span id="currentNumber">0</span>
-        <button name="adicionar" onclick="increment()">+</button>
+      <div id="list">
+        <form id="task-form">
+            <input id="task-input" name="tarefa" type="text" placeholder="Digite aqui sua tarefa" />
+            <button type="submit">Adicionar</button>
+        </form>
+        <div id="tasks"></div>
     </div>
 
-
-<script src="/assets/js/main.js"></script>
-</body>
+    </main>
+    <script src="/assets/js/main.js"></script>
+  </body>
 </html>
