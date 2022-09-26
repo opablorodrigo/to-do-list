@@ -11,5 +11,4 @@ https://pablorodrigo-to-do-list.netlify.app/
 
 ## Desafios
 
-Javascript a primeira vista tem me parecido muito difícil mas estou gostando dos desafios.
- 
+Criar um to-do-list dinâmico para adicionar e marcar como concluído tarefas e afins.
